@@ -1,5 +1,6 @@
 package com.skybird.demoss
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.RemoteException
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity(), ShadowsocksConnection.Callback,
         }
         connection.connect(this, this)
         DataStore.publicStore.registerChangeListener(this)
+        startActivity(Intent(this,WebViewActivity::class.java))
     }
 
 

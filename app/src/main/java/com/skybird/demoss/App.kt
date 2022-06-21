@@ -5,6 +5,7 @@ import com.github.shadowsocks.Core
 import com.github.shadowsocks.database.Profile
 import com.github.shadowsocks.database.ProfileManager
 import com.github.shadowsocks.preference.DataStore
+import timber.log.Timber
 
 /**
  * Date：2022/5/24

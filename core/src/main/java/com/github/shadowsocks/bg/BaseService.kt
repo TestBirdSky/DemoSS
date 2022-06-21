@@ -269,7 +269,7 @@ object BaseService {
             Log.i(TAG,"stopRunner $restart state=${data.state} --$msg")
             if (data.state == State.Stopping) return
             // channge the state
-            data.changeState(State.Stopping)
+//            data.changeState(State.Stopping)
             GlobalScope.launch(Dispatchers.Main.immediate) {
 //                Firebase.analytics.logEvent("stop") { param(FirebaseAnalytics.Param.METHOD, tag) }
                 data.connectingJob?.cancelAndJoin() // ensure stop connecting first
