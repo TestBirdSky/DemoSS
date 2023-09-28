@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21927083333333333" />
         <entry key="app/src/main/res/layout/activity_webview.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/coordinator_appbar.xml" value="0.351931330472103" />
+        <entry key="app/src/main/res/layout/item_layout.xml" value="0.3640625" />
       </map>
     </option>
   </component>

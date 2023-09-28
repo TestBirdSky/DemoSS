@@ -12,10 +12,15 @@ import timber.log.Timber
  * Describe:
  */
 class App : Application() {
+    companion object{
+        lateinit var mApp: App
+        private set
+    }
     override fun onCreate() {
         super.onCreate()
         Core.init(this, MainActivity::class)
         selectedProfile()
+        mApp=this
     }
 
 

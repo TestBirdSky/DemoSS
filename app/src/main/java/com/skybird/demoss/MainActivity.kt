@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity(), ShadowsocksConnection.Callback,
         }
         connection.connect(this, this)
         DataStore.publicStore.registerChangeListener(this)
-        startActivity(Intent(this,WebViewActivity::class.java))
     }
 
 
